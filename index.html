@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Parking Management System</h1>
+
+        <div class="status">
+            <p>Total Slots: <span id="totalSlots">10</span></p>
+            <p>Available Slots: <span id="availableSlots">10</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" id="vehicleNumber" placeholder="Enter Vehicle Number">
+            <button id="parkBtn">Park Vehicle</button>
+            <button id="removeBtn">Remove Vehicle</button>
+        </div>
+
+        <div class="vehicles">
+            <h2>Parked Vehicles</h2>
+            <ul id="vehicleList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

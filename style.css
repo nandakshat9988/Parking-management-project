@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.status {
+    background: #eef2ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.status p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.form {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#parkBtn {
+    background: #28a745;
+}
+
+#parkBtn:hover {
+    background: #218838;
+}
+
+#removeBtn {
+    background: #dc3545;
+}
+
+#removeBtn:hover {
+    background: #c82333;
+}
+
+.vehicles {
+    margin-top: 20px;
+}
+
+.vehicles h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
